@@ -1,7 +1,7 @@
 import os
 from typing import Any, Dict
 
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_groq import ChatGroq
 
 

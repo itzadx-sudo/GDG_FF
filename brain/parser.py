@@ -4,7 +4,7 @@ import re
 from typing import Any, Dict
 
 from PyPDF2 import PdfReader
-from langchain import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_groq import ChatGroq
 
 DEFAULT_RESUME_JSON: Dict[str, Any] = {
