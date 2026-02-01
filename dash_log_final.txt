@@ -1,0 +1,35 @@
+Dash is running on http://0.0.0.0:8050/
+
+ * Serving Flask app 'app_dash'
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/Users/adityajain/Documents/GDG/Project/GDG_FF/app_dash.py", line 1269, in <module>
+    app.run(debug=True, port=8050, host='127.0.0.1')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dash/dash.py", line 2529, in run
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x0000000206642c40 (most recent call first):
+  <no Python frame>
+    self.server.run(host=host, port=port, debug=debug, **flask_run_options)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flask/app.py", line 612, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/werkzeug/serving.py", line 1115, in run_simple
+    run_with_reloader(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/werkzeug/_reloader.py", line 453, in run_with_reloader
+    ensure_echo_on()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/werkzeug/_reloader.py", line 433, in ensure_echo_on
+    termios.tcsetattr(sys.stdin, termios.TCSANOW, attributes)
+termios.error: (4, 'Interrupted system call')
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:123: UserWarning:
+
+resource_tracker: process died unexpectedly, relaunching.  Some resources might leak.
+
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x0000000206642c40 (most recent call first):
+  <no Python frame>

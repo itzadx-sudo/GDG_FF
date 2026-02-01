@@ -1,0 +1,22 @@
+John Smith
+Email: john.smith@email.com
+Experience: 5 years in software engineering
+
+SKILLS:
+- Python
+- JavaScript
+- React
+- Machine Learning
+- Docker
+- Kubernetes
+
+PROJECTS:
+- E-commerce Platform (High complexity): Built scalable microservices
+- Data Pipeline (Medium complexity): Automated data processing
+- Mobile App (Low complexity): Simple task manager  
+
+CERTIFICATIONS:
+- AWS Certified Solutions Architect
+- Google Cloud Professional
+
+WEAKNESS: Limited experience with embedded systems
