@@ -1,0 +1,7 @@
+flet                  # For the Frontend
+PyPDF2                # For your Parser
+sentence-transformers # For AI Matching (Member 3)
+thefuzz               # For Fuzzy Logic (Member 3)
+langchain             # For AI Logic (Member 3)
+ollama                # For Local Llama 3 (Member 3)
+cryptography         # For Security (Member 2)
